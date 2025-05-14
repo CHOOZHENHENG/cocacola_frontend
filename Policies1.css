@@ -1,0 +1,12 @@
+div.policy {
+    background-color: lightgray;
+    font-size: 20px;
+}
+
+a > p {
+    color: crimson;
+}
+
+a > p:hover {
+    color: darkred;
+}

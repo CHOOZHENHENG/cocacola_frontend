@@ -1,0 +1,138 @@
+html{
+    background-color: rgb(204, 0, 0);
+}
+body{
+    margin-left:auto;
+    margin-right: auto;
+    width: 90%;
+    background-color: rgb(225,225,225);
+}
+
+body > header {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+    background-color: rgb(225,225,225);
+}
+
+body>header>img:first-child{
+    padding-left: 15px;
+}
+
+legend{
+    background-color:lightcoral;
+    color:black;
+    padding: 5px;
+    border-radius: 5px 15px;
+    font-size: 15px;
+}
+
+div.formRow{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow:row wrap;
+    flex-flow: row wrap;
+    margin: auto;
+}
+
+#promotion1, #promotion2, #promotion3, #promotion4, #promotion5, #promotion6{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow:row wrap;
+    flex-flow: row wrap;
+    background-color: linen;
+    border-radius: 20px;
+    -webkit-flex:1 1 300px;
+    flex: 1 1 300px;
+    font-size: 0.85em;
+    padding: 10px;
+    margin: 10px;
+}
+
+header>div{
+    float: left;
+    width: 14.28%;
+    background-color: rgb(200, 20, 20);
+}
+
+/*Navigation styles*/
+div.horizontal ul li {
+    display: block;
+    width: 15.17%;
+    float: left;
+}
+
+div.horizontal a{
+    display: block;
+    font-size: 23px;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 1.5em;
+    text-decoration: none;
+    background-color: rgb(200,20,20);
+}
+
+div.horizontal a:link,div.horizontal a:visited{
+    color: rgb(186, 222, 236);
+}
+
+div.horizontal a:hover,div.horizontal a:active{
+    color: black;
+    text-decoration: underline;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+article {
+	width:100%;
+	float: left;
+    text-indent: 22px ;
+    text-align: left;
+    padding: 2px;
+}
+
+video{
+    box-shadow: rgb(51, 51, 51) 8px 8px 15px;
+    display: block;
+    margin: 10px auto;
+    width: 90%;
+}
+
+/*footer part*/
+ul.separate{
+    padding:10px 24px;
+    background-color: rgb(200, 20, 20);
+}
+
+ul.separate li{
+    display: inline;
+}
+
+ul.separate li+li:before{
+    padding:20px;
+    color: rgb(231, 220, 220);
+    content: "|\00a0";
+}
+
+ul.separate li a{
+    color: black;
+    text-decoration: none;
+}
+
+ul.separate li a:hover{
+    color: white;
+    text-decoration: underline; 
+    
+@media only screen and (min-width: 481px)
+	
+   
+   /* Header Navigation Styles */
+   
+   body > header > nav.horizontal > ul {
+	   height: 160px;
+   }   
+
+}

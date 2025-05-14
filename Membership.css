@@ -1,0 +1,53 @@
+table {
+    border-collapse: collapse;
+    outline-width: 1px;
+    outline-style: solid;
+}
+
+tr, td, th {
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: red;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+@keyframes goldc{
+    0%{color: white;}
+    50% {color: yellow;}
+    100% {color: gold;}
+}
+
+@keyframes silverc{
+    0% {color: white;}
+    50% {color: lightgray;}
+    100% {color: silver;}
+}
+
+@keyframes bronzec{
+    0% {color: white;}
+    50% {color: orange;}
+    100% {color: brown;}
+}
+
+#gold {
+    animation-name: goldc;
+    animation-duration: 1.0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#silver {
+    animation-name: silverc;
+    animation-duration: 1.0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#bronze {
+    animation-name: bronzec;
+    animation-duration: 1.0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}

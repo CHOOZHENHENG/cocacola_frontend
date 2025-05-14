@@ -1,0 +1,22 @@
+#date, #location, #voucher {
+    float: right;
+    display: block;
+}
+
+fieldset > div {
+    display: block;
+}
+
+fieldset {
+    background-color: rgb(240, 240, 240);
+}
+
+#checkout, #reset {
+    background-color: white;
+    color: red;
+}
+
+#checkout:hover, #reset:hover {
+    background-color: black;
+    color: red;
+}

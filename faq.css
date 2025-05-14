@@ -1,0 +1,50 @@
+body{
+    margin-left:auto;
+    margin-right: auto;
+    width: 70%;
+    background-color: white;
+}
+
+h1{
+    font-size:50px;
+    text-align: center;
+    color: rgb(17, 48, 117);
+    margin-right: 100px;
+    text-decoration: underline;
+}
+
+div{
+    font-size:25px;
+    font-style: italic;
+}
+
+.aaa{
+    margin-top: 50px;
+    margin-left:200px;
+}
+
+.bbb{
+    margin-top: -279px;
+    margin-left:630px;
+}
+
+.ccc{
+    margin-top: 50px;
+    margin-left:200px;
+}
+
+.ddd{
+    margin-top: -279px;
+    margin-left:630px;
+}
+
+.eee{
+    margin-top: 50px;
+    margin-left:200px;
+}
+
+.fff{
+    margin-top: -279px;
+    margin-left:630px;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,24 @@
+body{
+    margin-left:auto;
+    margin-right: auto;
+    width: 70%;
+    background-color: white;
+}
+div.vertical a{
+    font-size: 25px;
+    font-style: italic;
+    line-height: 2em;
+    text-decoration: none;
+    background-repeat:none;
+}
+
+div.vertical a:hover,div.vertical a:active{
+    color: black;
+    text-decoration: underline;
+}
+
+ h2{
+    font-size:25px;
+    text-align: right;
+    background-color: yellow;
+}
